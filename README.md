@@ -5,7 +5,8 @@
 
 
 ## Problem statement 
-![Screenshot 2024-02-01 at 8 39 33 PM](https://github.com/ajayg51/weather_app/assets/60037249/96de6c5b-d259-40b0-a5df-3b61e68bd79e)
+![Screenshot 2024-02-02 at 4 08 45 AM](https://github.com/ajayg51/weather_app/assets/60037249/3529aee3-d997-4ef6-9d33-aca10c4375a1)
+
 
 ## Tech Stack
 ```
