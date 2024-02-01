@@ -1,4 +1,4 @@
-# RiDiv Assignment - Build a weather app
+# Weather App
 
 ## Download apk
 <a href="https://github.com/ajayg51/weather_app/raw/main/apk/app-release.apk">Click here to download apk file</a>
