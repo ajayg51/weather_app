@@ -17,7 +17,11 @@
 
 ## Demo
 
-https://github.com/ajayg51/weather_app/assets/60037249/0b0aa7ff-ac5c-42ca-b899-21fc6583cfc0
+
+https://github.com/ajayg51/weather_app/assets/60037249/79c65f28-e7e8-48f2-ab22-8e31943cf190
+
+
+
 
 
 
