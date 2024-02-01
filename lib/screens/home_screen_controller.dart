@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:ridiv_assignment/models/place_weather_response.dart';
-import 'package:ridiv_assignment/services/city_search_service.dart';
-import 'package:ridiv_assignment/utils/country_enum.dart';
+import 'package:weather_app/models/place_weather_response.dart';
+import 'package:weather_app/services/city_search_service.dart';
+import 'package:weather_app/utils/country_enum.dart';
 
 class HomeScreenController extends GetxController {
   HomeScreenController({required this.position});

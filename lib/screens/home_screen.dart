@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:ridiv_assignment/models/place_weather_response.dart';
-import 'package:ridiv_assignment/screens/home_screen_controller.dart';
-import 'package:ridiv_assignment/utils/common_appbar.dart';
-import 'package:ridiv_assignment/utils/common_scaffold.dart';
-import 'package:ridiv_assignment/utils/constants.dart';
-import 'package:ridiv_assignment/utils/country_enum.dart';
-import 'package:ridiv_assignment/utils/extensions.dart';
-import 'package:ridiv_assignment/utils/separator.dart';
+import 'package:weather_app/models/place_weather_response.dart';
+import 'package:weather_app/screens/home_screen_controller.dart';
+import 'package:weather_app/utils/common_appbar.dart';
+import 'package:weather_app/utils/common_scaffold.dart';
+import 'package:weather_app/utils/constants.dart';
+import 'package:weather_app/utils/country_enum.dart';
+import 'package:weather_app/utils/extensions.dart';
+import 'package:weather_app/utils/separator.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({
@@ -306,7 +306,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           12.verticalSpace,
           ...List.generate(
-             flagList.length - 1,
+            flagList.length - 1,
             (index) {
               final flag = flagList[index];
 

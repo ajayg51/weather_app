@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ridiv_assignment/screens/splash_screen.dart';
+import 'package:weather_app/screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

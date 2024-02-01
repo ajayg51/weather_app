@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:get/get.dart';
-import 'package:ridiv_assignment/screens/home_screen.dart';
-import 'package:ridiv_assignment/services/geo_location_service.dart';
-import 'package:ridiv_assignment/utils/constants.dart';
+import 'package:weather_app/screens/home_screen.dart';
+import 'package:weather_app/services/geo_location_service.dart';
+import 'package:weather_app/utils/constants.dart';
 
 class SplashScreenController extends GetxController {
   Position? position;

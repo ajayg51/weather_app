@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:ridiv_assignment/models/place_lat_longtd_response.dart';
-import 'package:ridiv_assignment/models/place_weather_response.dart';
+import 'package:weather_app/models/place_lat_longtd_response.dart';
+import 'package:weather_app/models/place_weather_response.dart';
 
 class CitySearchService {
   final dio = Dio();
@@ -11,8 +11,6 @@ class CitySearchService {
       "https://api.openweathermap.org/data/2.5/weather";
 
   static const apiKey = "647ad5b09c950c3826811d25cc07baca";
-
-
 
   Future<PlaceWeatherResponse?> getPlaceWeatherBasisLatAndLong({
     required double lat,
@@ -73,5 +71,4 @@ class CitySearchService {
 
     return null;
   }
-
 }

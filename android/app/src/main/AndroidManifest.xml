@@ -8,7 +8,7 @@
 <!-- Permission end -->
 
     <application
-        android:label="ridiv_assignment"
+        android:label="weather_app"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

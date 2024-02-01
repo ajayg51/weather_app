@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ridiv_assignment/utils/constants.dart';
+import 'package:weather_app/utils/constants.dart';
 
 class CommonScaffold extends StatelessWidget {
   const CommonScaffold({

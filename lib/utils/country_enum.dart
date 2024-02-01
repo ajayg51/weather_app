@@ -1,4 +1,4 @@
-import 'package:ridiv_assignment/utils/assets.dart';
+import 'package:weather_app/utils/assets.dart';
 
 enum Country {
   india,

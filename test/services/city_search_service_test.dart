@@ -1,12 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:mocktail/mocktail.dart';
-import 'package:ridiv_assignment/models/place_weather_response.dart';
-import 'package:ridiv_assignment/services/city_search_service.dart';
+import 'package:weather_app/models/place_weather_response.dart';
+import 'package:weather_app/services/city_search_service.dart';
 
 void main() {
   final citySearchService = CitySearchService();
-  
 
   group('City search service : ', () {
     group('Get location weather basis latitude and longitude : ', () {

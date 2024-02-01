@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ridiv_assignment/utils/assets.dart';
+import 'package:weather_app/utils/assets.dart';
 
 class CommonAppbar extends StatelessWidget {
   const CommonAppbar({super.key});

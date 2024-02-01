@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:ridiv_assignment/screens/splash_screen_controller.dart';
-import 'package:ridiv_assignment/utils/assets.dart';
-import 'package:ridiv_assignment/utils/common_appbar.dart';
-import 'package:ridiv_assignment/utils/common_scaffold.dart';
-import 'package:ridiv_assignment/utils/extensions.dart';
+import 'package:weather_app/screens/splash_screen_controller.dart';
+import 'package:weather_app/utils/assets.dart';
+import 'package:weather_app/utils/common_appbar.dart';
+import 'package:weather_app/utils/common_scaffold.dart';
+import 'package:weather_app/utils/extensions.dart';
 
 class SplashScreen extends StatelessWidget {
   SplashScreen({super.key});
