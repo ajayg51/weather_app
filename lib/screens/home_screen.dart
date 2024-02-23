@@ -260,7 +260,8 @@ class HomeScreen extends StatelessWidget {
         child: Row(
           children: [
             Obx(() {
-              final flagAsset = controller.selectedFlag.value.getAssetPath;
+              final flagAsset =
+                  controller.searchBoxSelectedFlag.value.getAssetPath;
               return Container(
                 decoration: BoxDecoration(
                   border: Border.all(),

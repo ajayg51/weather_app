@@ -30,13 +30,9 @@ class MyApp extends StatelessWidget {
               fontWeight: FontWeight.w400,
             ),
           )),
+ 
       home: SplashScreen(),
-      // home: HomeScreen(
-      //   isLocationPermissionEnabled: true,
-      //   place: Placemark(),
-      //   lat: 0,
-      //   longtd: 0,
-      // ),
+      
     );
   }
 }

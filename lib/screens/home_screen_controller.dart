@@ -9,6 +9,7 @@ class HomeScreenController extends GetxController {
   HomeScreenController({required this.position});
   final Position position;
 
+  final searchBoxSelectedFlag = Country.india.obs;
   final selectedFlag = Country.india.obs;
   final curLocFlag = Country.none.obs;
 
@@ -35,11 +36,11 @@ class HomeScreenController extends GetxController {
   }
 
   void onSelectFlag({required Country flag}) {
-    if (flag == selectedFlag.value) {
+    if (flag == searchBoxSelectedFlag.value) {
       Get.back(closeOverlays: true);
       return;
     }
-    selectedFlag.value = flag;
+    searchBoxSelectedFlag.value = flag;
     Get.back(closeOverlays: true);
     citySearchController.clear();
   }
@@ -66,6 +67,8 @@ class HomeScreenController extends GetxController {
         lat: latLongtdData.list[0].lat,
         lon: latLongtdData.list[0].lon,
       );
+
+      selectedFlag.value = searchBoxSelectedFlag.value;
     } else {
       isShowSearchedPlaceTile.value = false;
       closeGetDialog();
